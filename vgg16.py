@@ -8,10 +8,10 @@ Original file is located at
 """
 
 from zipfile import ZipFile
-file_path = "/content/covid19-image-dataset.zip"
+file_path = "C:\\Users\\Acer\\Desktop\\academy\\ocular desease recognition\\splitted.zip"
 with ZipFile(file_path, 'r') as zip_file:
   zip_file.extractall()
-  print('Extraction Compelted')
+  print('Extraction Completed')
 
 import os
 import math

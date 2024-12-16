@@ -23,15 +23,15 @@ import tensorflow as tf
 import seaborn as sns
 import math
 from sklearn.metrics import classification_report, confusion_matrix
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from keras.preprocessing.image import ImageDataGenerator
 import cv2
-from tensorflow.keras.callbacks import ModelCheckpoint
-from  tensorflow.keras.callbacks import EarlyStopping
+from keras.callbacks import ModelCheckpoint
+from keras.callbacks import EarlyStopping
 from keras import backend as K
-from tensorflow.keras.applications import VGG16
-from tensorflow.keras.layers import Flatten, Dense, Dropout, GlobalAveragePooling2D
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.optimizers import Adam
+from keras.applications import VGG16
+from keras.layers import Flatten, Dense, Dropout, GlobalAveragePooling2D
+from keras.models import Sequential
+from keras.optimizers import Adam
 
 np.random.seed(42)
 tf.random.set_seed(42)
